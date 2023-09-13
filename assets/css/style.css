@@ -1,0 +1,484 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #fff
+}
+
+.block {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/******************************************** ------ HEADER -----  ******************************************/
+.block .header {
+    position: relative;
+    height: 6%;
+    width: 100%;
+    background-color: rgb(37, 3, 103);
+    box-shadow: 0 0 4px;
+
+
+}
+
+.header .head {
+    position: relative;
+    height: 100%;
+    width: 60%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header .head a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #fff !important;
+
+
+
+}
+
+/******************************************** ------ HEADER -----  ******************************************/
+
+/******************************************** ------ INDEX -----  ******************************************/
+.block .index {
+    position: relative;
+    height: 94%;
+    width: 60%;
+    margin: 0 auto;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block .index .index-items {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    /* border: 1px solid #990f0f; */
+    /* background-color:#ccc; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.index .index-items .title-index {
+    height: 30%;
+    width: 100%;
+    border: 1px solid rgb(28, 28, 28);
+
+}
+
+.index .index-items .lien {
+    height: 20%;
+    width: 100%;
+    /* border: 1px solid rgb(28, 28, 28); */
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.index .index-items .lien a {
+    text-decoration: none;
+    margin: 10px;
+    background-color: blue;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.index-items .lien a:hover {
+    background-color: rgb(39, 3, 139);
+}
+
+#projet {
+    background-color: #fff;
+    color: #353434;
+    border: 1px solid #353434;
+}
+
+.index-items .lien #projet:hover {
+    background-color: #353434;
+    color: #fff;
+}
+
+.index .index-items .maphoto {
+    position: relative;
+    /* background-color: aqua; */
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.index-items .maphoto img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.index .index-items h1 {
+    /* color: rgb(37, 3, 103); */
+    margin: 15px 0;
+}
+
+.index-items .rxo {
+    position: relative;
+    /* top: 6%; */
+    height: 10%;
+    width: 95%;
+    /* border: 1px solid rebeccapurple; */
+    margin: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-items .rxo a {
+    text-decoration: none;
+    margin: 0 10px;
+    background-color: rgb(37, 3, 103);
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.rxo i {
+    font-size: 1.5rem;
+
+}
+
+.index .index-items.photo {
+    align-items: end;
+}
+
+/******************************************** ------ INDEX -----  ******************************************/
+
+/******************************************** ------ ABOUT -----  ******************************************/
+
+.block section {
+    position: relative;
+    height: 50%;
+    width: 60%;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    list-style: inside;
+    border-radius: 10px;
+    margin: 20px auto;
+    overflow: hidden;
+    /* box-shadow: inset 2px 2px 3px .2px grey; */
+}
+
+.block section h1 {
+    margin: 10px auto;
+}
+
+.block #contactMichee {
+    background-color: red;
+    color: #fff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.block #contactMichee a {
+    background-color: blue;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.block .about {
+    /* background-color: #353434; */
+    display: flex;
+    align-items: center;
+
+}
+
+
+.about .about-items {
+    position: relative;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+}
+
+.about .about-items.left {
+    width: 20% !important;
+    /* background-color: aqua; */
+}
+
+.about-items.left .infos-etudes {
+    /* height: 20%; */
+    height: auto;
+    max-width: 1000px;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.about .about-items.left h1 {
+    color:orangered;
+}
+
+.about .about-items.left p {
+    margin: -8px 0 0;
+}
+
+.about .about-items p {
+    margin: 5px 0;
+    text-align: justify;
+}
+
+.block .experience {
+    position: relative;
+    /* border: 1px solid orange; */
+    height: 100% !important;
+}
+
+.block .experience .expert-items {
+    position: relative;
+    height: 7%;
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: 35px auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.experience .expert-items i {
+    font-size: 1.4rem;
+    background-color: orangered;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.block .experience .expert-items h1 {
+    text-align: none !important;
+    margin-left: 10px;
+
+}
+
+.experience .expert-items:first-child {
+    /* background-color: green; */
+}
+
+.block .experience .expert-items.content {
+    height: 30%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.expert-items.content .kills {
+    position: relative;
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.block .title-pg-about {
+    width: 60%;
+    /* height: 10%; */
+    /* border: 1px solid red; */
+    margin: 30px auto;
+    color: rgb(37, 3, 103);
+    ;
+
+}
+
+/******************************************** NOUS CONTACTER      *****************************************/
+.experience.contac{
+    /* background-color: antiquewhite; */
+    height: 80% !important;
+}
+.experience .form {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    color: #020202;
+    padding: 0px;
+    /* border: 1px solid red; */
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience .form .datas {
+    width: 100%;
+    height: 20%;
+    /* height: auto; */
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    /* border: 1px solid red; */
+
+}
+
+.form .datas .putInfo {
+    position: relative;
+    height: 100%;
+    width: 48%;
+}
+
+.datas .putInfo label {
+    font-size: 1.3rem;
+    margin: 20px auto;
+}
+
+.datas .putInfo input {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0px 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.datas .putInfo select {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0px 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+}
+
+.datas.forMssg {
+    height: 40% !important;
+    margin: -10px 0px 0px;
+    /* border: 1px solid orange; */
+}
+.datas.forMssg #msgVisit {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+}
+
+.datas.btnSubmit {
+    height: 10% !important;
+}
+
+.datas.btnSubmit button {
+    background-color:  orangered;
+    width: 30%;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+
+}
+.experience .nos-data{
+    position: relative;
+    height: 20%;
+    width: 100%;
+    /* border: 1px solid rgb(39, 3, 139); */
+    background-color: #edecec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience .nos-data a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #fff;
+    background-color:orangered;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+/* .experience .nos-data  i{} */
+
+/******************************************** NOUS CONTACTER      *****************************************/
+*
+/******************************************** Autres details *********************************************/
+.about .details{
+    background-color: orangered;
+    height: 100%;
+    width: 49%;
+    /* display: block; */
+}
+.about .details .details-item{
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+/******************************************** Autres details *********************************************/
+
+/******************************************** ------ ABOUT -----  ******************************************/
+
+/********************************** FOOTER ************************************/
+.block .footer {
+    position: relative;
+    bottom: 0;
+    height: 7%;
+    width: 100%;
+    background-color: rgb(37, 3, 103);
+
+
+}
+
+.block .footer .foot {
+    position: relative;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .7rem;
+    color: #fff;
+    font-weight: 100;
+}
+
+/********************************** FOOTER ************************************/
